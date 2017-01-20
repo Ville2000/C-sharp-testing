@@ -9,6 +9,7 @@ public class HelloWorld
         Message msg = new Message();
         msg.typeHei();
         System.Console.WriteLine(value);
+        System.Console.WriteLine(name + value);
         typeWhatYouGet("Moikka!");
     }
 
